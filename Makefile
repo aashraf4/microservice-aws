@@ -2,10 +2,10 @@ install:
 	pip install --upgrade pip && pip install -r requirements.txt
 
 lint: 
-	#pylint
+	pylint --disable=R,C *.py mylib/*.py
 
 test:
-	#test
+	python -m pytest --cov=mylib test_logic.py
 
 deploy:
 	#deploy

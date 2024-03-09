@@ -1,3 +1,3 @@
-from mylib import logic
+from mylib.logic import wiki
 
-print(logic)
+print(wiki())
