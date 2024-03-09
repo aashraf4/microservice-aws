@@ -9,5 +9,8 @@ test:
 
 deploy:
 	#deploy
+format:
+	#format
+	black mylib/*.py
 	
 all: install lint test deploy
