@@ -5,3 +5,6 @@ pytest-cov
 black
 fire
 textblob
+fastapi
+uvicorn
+httpx
