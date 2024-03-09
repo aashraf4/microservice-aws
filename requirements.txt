@@ -4,3 +4,4 @@ pylint
 pytest-cov
 black
 fire
+textblob
